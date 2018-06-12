@@ -39,7 +39,6 @@ try
             {
                  steps {
                 git branch: '*/feature/cognizant/gil_ci',
-                credentialsId: 'ten\s.pe.cibuild/******',
                 url: 'http://tfstta.int.thomson.com:8080/tfs/defaultcollection/OneSourceProvision/_git/OTP_GIL_UI'
 
                 sh "ls -lat"
